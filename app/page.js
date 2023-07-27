@@ -14,8 +14,10 @@ export default function Home() {
           priority
         />
       </div>
-      <h1 className={cinzel.className}>and listen to the sound</h1>
-      <div className='text-yellow-100/60 text-sm'>
+      <h1 className={cinzel.className}>
+        & listen to the sound
+      </h1>
+      <div className="text-yellow-100/60 text-sm">
         coming soon...
       </div>
     </main>
