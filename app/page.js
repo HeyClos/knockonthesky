@@ -30,16 +30,16 @@ export default function Home() {
       <div className="max-w-fit flex flex-col gap-4 justify-center md:flex md:flex-row">
         <div id="border-neon" className="card max-w-fit backdrop-blur-sm">
           <div className="card-body">
-            <h2 className={`${cinzel.className} card-title tracking-widest font-light`}>For Ad/TV/Film producers</h2>
-            <p className="opacity-90 text-sm">Award-winning music composition for Advertisements, TV shows, and Film. High-quality, quick turnarounds. </p>
+            <h2 className={`${cinzel.className} card-title tracking-widest font-normal`}>For Ad/TV/Film producers</h2>
+            <p className="opacity-80 font-light text-sm">Award-winning music composition for Advertisements, TV shows, and Film. High-quality, quick turnarounds. </p>
             <div className="card-actions justify-end">
             </div>
           </div>
         </div>
         <div id="border-neon" className="card max-w-fit backdrop-blur-sm">
           <div className="card-body">
-            <h2 className={`${cinzel.className} card-title tracking-widest font-light`}>For Artists</h2>
-            <p className="opacity-90 text-sm">Music production & management services. Including studio sessions, engineering, marketing, representation and more.</p>
+            <h2 className={`${cinzel.className} card-title tracking-widest font-normal`}>For Artists</h2>
+            <p className="opacity-80 font-light text-sm">Music production & management services. Including studio sessions, engineering, marketing, representation and more.</p>
             <div className="card-actions justify-end">
             </div>
           </div>
@@ -47,8 +47,8 @@ export default function Home() {
 
         <div id="border-neon" className="card max-w-fit backdrop-blur-sm">
           <div className="card-body">
-            <h2 className={`${cinzel.className} card-title tracking-widest font-light`}>For Students & Non profits</h2>
-            <p className="opacity-90 text-sm">We're happy to contribute our work pro-bono and help take your work & projects to the next level.</p>
+            <h2 className={`${cinzel.className} card-title tracking-widest font-normal`}>For Students & Non profits</h2>
+            <p className="opacity-80 font-light text-sm">We're happy to contribute our work pro-bono and help take your work & projects to the next level.</p>
             <div className="card-actions justify-end">
             </div>
           </div>

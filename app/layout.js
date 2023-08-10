@@ -1,5 +1,5 @@
 import './globals.css'
-import { bodoni_moda } from './fonts'
+import { gluten } from './fonts'
 
 export const metadata = {
   title: 'Knock on the Sky',
@@ -9,7 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={bodoni_moda.className}>{children}</body>
+      <body className={gluten.className}>{children}</body>
     </html>
   )
 }
