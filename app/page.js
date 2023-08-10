@@ -6,7 +6,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col place-items-center p-14 justify-between">
       <div className="hero h-5/6">
         <div className="hero-content text-center">
-          <div className="max-w-xl">
+          <div className="max-w-2xl">
             <div className="relative flex flex-col place-items-center before:absolute before:h-[300px] before:w-6/12 before:rounded-full before:bg-gradient-radial before:from-slate-400/60 before:to-slate-500/50 before:blur-3xl">
               <Image
                 className="relative drop-shadow-[0_0_0.3rem_#ffffff70] invert"
@@ -28,27 +28,27 @@ export default function Home() {
 
       {/* <div className="grid grid-cols-3 gap-4 grid-flow-col md:grid-flow-row "> */}
       <div className="max-w-fit flex flex-col gap-4 justify-center md:flex md:flex-row">
-        <div className="card max-w-fit border-2 border-orange-400 backdrop-blur-sm">
+        <div id="border-neon" className="card max-w-fit backdrop-blur-sm">
           <div className="card-body">
-            <h2 className="card-title">For Ad/TV/Film producers</h2>
-            <p>Award-winning music composition for Advertisements, TV shows, and Film. High-quality, quick turnarounds. </p>
+            <h2 className={`${cinzel.className} card-title tracking-widest font-light`}>For Ad/TV/Film producers</h2>
+            <p className="opacity-90 text-sm">Award-winning music composition for Advertisements, TV shows, and Film. High-quality, quick turnarounds. </p>
             <div className="card-actions justify-end">
             </div>
           </div>
         </div>
-        <div className="card max-w-fit border-2 border-orange-400 backdrop-blur-sm">
+        <div id="border-neon" className="card max-w-fit backdrop-blur-sm">
           <div className="card-body">
-            <h2 className="card-title">For Artists</h2>
-            <p>Music production & management services. Including studio sessions, engineering, marketing, representation and more.</p>
+            <h2 className={`${cinzel.className} card-title tracking-widest font-light`}>For Artists</h2>
+            <p className="opacity-90 text-sm">Music production & management services. Including studio sessions, engineering, marketing, representation and more.</p>
             <div className="card-actions justify-end">
             </div>
           </div>
         </div>
 
-        <div className="card max-w-fit border-2 border-orange-400 backdrop-blur-sm">
+        <div id="border-neon" className="card max-w-fit backdrop-blur-sm">
           <div className="card-body">
-            <h2 className="card-title">For Students & Non profits</h2>
-            <p>We're happy to contribute our work pro-bono and help take your work & projects to the next level.</p>
+            <h2 className={`${cinzel.className} card-title tracking-widest font-light`}>For Students & Non profits</h2>
+            <p className="opacity-90 text-sm">We're happy to contribute our work pro-bono and help take your work & projects to the next level.</p>
             <div className="card-actions justify-end">
             </div>
           </div>
@@ -56,7 +56,7 @@ export default function Home() {
       </div>
       {/* <div>Our Clients</div>    */}
 
-      <div className="text-yellow-100/60 text-sm flex">
+      <div className="text-lime-300 text-sm flex">
         coming soon...
       </div>
     </main>
