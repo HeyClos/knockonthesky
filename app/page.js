@@ -38,10 +38,10 @@ export default function Home() {
         </div>
         <div className="card w-96 border-2 border-orange-400 backdrop-blur-sm">
           <div className="card-body">
-            <h2 className="card-title">For Musicians</h2>
-            <p>Studio access, composition, production help.</p>
+            <h2 className="card-title">For Artists</h2>
+            <p>Music production & management services. Including studio sessions, engineering, marketing, representation and more.</p>
             <div className="card-actions justify-end">
-              <button className="btn glass invert">Coming Soon...</button>
+              <button className="btn glass invert">Book us today.</button>
             </div>
           </div>
         </div>
