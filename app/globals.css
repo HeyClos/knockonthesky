@@ -20,6 +20,7 @@
 
 body {
   background-image: url('../public/haikei-70s.svg');
+  /* background-size: 100% 100% */
   /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -42,7 +43,7 @@ body {
   }
 }
 
-@keyframes pulsate-bck {
+/* @keyframes pulsate-bck {
   0% {
     transform: scale(1);
   }
@@ -52,13 +53,13 @@ body {
   100% {
     transform: scale(1);
   }
-}
+} */
 
 
 #tagline {
 	animation: puff-in-hor 1.5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
 
-#banner {
+/* #banner {
 	animation: pulsate-bck 10s ease-in-out infinite both;
-}
+} */
