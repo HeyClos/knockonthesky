@@ -28,7 +28,7 @@ export default function Home() {
       </div>
 
       {/* <div className="grid grid-cols-3 gap-4 grid-flow-col md:grid-flow-row "> */}
-      <div className="max-w-fit text-white flex flex-col gap-4 justify-center md:flex md:flex-row">
+      <div className="relative max-w-fit text-white flex flex-col gap-4 justify-center md:flex md:flex-row">
         <div id="border-neon" className="card max-w-fit backdrop-blur-sm">
           <div className="card-body">
             <h2 className={`${cinzel.className} card-title tracking-widest font-normal`}>For Ad/TV/Film producers</h2>
