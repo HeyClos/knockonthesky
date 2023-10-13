@@ -4,7 +4,7 @@ import { cinzel } from './fonts'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col place-items-center p-14 justify-between">
-      <div className="hero h-5/6">
+      <div className="hero h-5/6 pb-4">
         <div className="hero-content text-center">
           <div className="max-w-2xl">
             {/* <div className="relative flex flex-col place-items-center z-50 before:absolute before:h-[300px] before:w-6/12 before:rounded-full before:bg-gradient-radial before:from-slate-400/60 before:to-slate-500/50 before:blur-3xl"> */}
@@ -57,7 +57,7 @@ export default function Home() {
       </div>
       {/* <div>Our Clients</div>    */}
 
-      <div className="text-lime-300 text-sm flex z-40">
+      <div className="text-lime-300 text-sm flex z-40 pt-2">
         Email us at kotsweb@gmail.com
       </div>
     </main>
