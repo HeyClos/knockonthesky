@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { cinzel } from './fonts'
 
 export default function Home() {
@@ -22,10 +23,12 @@ export default function Home() {
               </h1>
             </div>
 
-            <p id="text-neon" className={`${cinzel.className} z-20 py-12 text-sm text-lime-300 tracking-widest opacity-90`}>M̵̺͕̀̉̅ũ̷͓̱̄l̸̹̬̖̈̓t̷̪͉̲͓̓͛̚i̷̛̬̟̝̒̚͠d̶̻̓͐̕ḯ̴̜̭̗̘͠š̸̯̫č̴̮̃̇͛i̴̩͑̅̂̚p̶̧͔̩̄͐͝͠ͅļ̷̠̞̦̄̃i̷̗͈̘̟̅̆n̸̢̨͔̉̈́̆a̵͓̦̮̗̋͗̄̔r̷̨̠̈́͑̀ÿ̴̛̠́̿ ̸̛̥̍͊a̶̪͔͒̇̇͑ŕ̵͖͚̻̀ț̴̋́͝͝ ̴̛̭͇̥c̶̗͙͓̼̍͋o̶͚͂l̵͎͈̍̒̔̒l̸͙͎̇̀͗e̴̻̟̺͂̒̀c̷̱̃͠t̵͚̦̗̬͌̀̚͝ḯ̴̲̂̅v̶̺̰̪̈́̌̚e̷̛̮̭̚͠ ̵̣͉̱̖͝ć̷̬̳u̷͎̟͗̓̊͝r̸̞̟̙̀r̵͖͇̰̭̾̐̑͝e̵̠͕̋̈́n̴̡̜̤̰͠t̴̫̰̟̖͆̔l̷͙̬̺̮̈́̕y̸̢̢̪̠̓͋̕ ̴̯̍̆e̸̱͗x̴̦͎̊ǐ̵̧́̓s̷̺̩͔̺̆̎͝t̸̢̝̫̙͊i̶̛̦̍̕n̴̰̅̍ǵ̷̰̗͍́͋̔ ̷̰͙͕̇̎i̶̝̥͆͑ǹ̷̙̖͉͓̍̚ ̶̺̼̄̓͒̚L̸̬̲̮͙̈̀̚a̷͎̅̔̓s̶̡̟̿͛̂ͅ ̴̺͒̃̈́͘V̶̤̠̮̈́̇̈́̐ë̴̛̜̼̩́g̸̼̼̣̒̚̚ȧ̷̗͚̞́ş̵͈̼͊̎̿.̷̢͛ ̶̠͎͍̍̈́͝Ë̷̼́̑v̵̧́͆̅͛e̷̯̍̾̎n̶̗̱̕t̷͙̗͉̯́̌̇̚s̴̡̛͚̈́ͅ,̸̲͌̏̿͒ ̵̳̲͗M̵͈̈̎̒u̸̅̾͜s̴̩̮̫̝͊̏̀i̴͚̖̋c̵͖̝̩̙̏̔͆̕ ̵͈͆̅P̶͖͗̈́͝r̵̩̬͇̾ó̶̢̦̖̘̈͝d̸̢̏̈́͑̓ư̵̪͠c̴̜̟̅t̷̟̲̯̀ḭ̶̯̟̆̾̚o̸̫̚n̶͔̬̟̩̽,̶̢̫̎̃̏ ̴̝̊͛̈́à̶̱n̷̙͗͗͝d̵̤͍̜͚̈́ ̶̨̭̭̈́̄͒m̴̝͕̃ȍ̶͈̦̭r̶̜͍̹̂e̵̯͑̅.̷̢̞̓̃</p>
+            
           </div>
         </div>
       </div>
+      <Link id="text-neon" href="https://link.dice.fm/z91c0c3e1667" className="text-lime-300 text-2xl tracking-widest"> 🎟️ Click Here for Sweat Equity Tickets 🎟️ </Link>
+            <p className={`${cinzel.className} z-20 pt-12 text-sm text-lime-300 tracking-widest opacity-90`}>We're a collective of multidisciplinary artists and producers from around the world. We create experiences and offer the services below: </p>
 
       {/* <div className="grid grid-cols-3 gap-4 grid-flow-col md:grid-flow-row "> */}
       <div className="relative max-w-fit text-white flex flex-col gap-4 justify-center md:flex md:flex-row">
