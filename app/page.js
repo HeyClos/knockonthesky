@@ -9,7 +9,7 @@ export default function Home() {
         <div className="hero-content text-center">
           <div className="max-w-2xl">
             {/* <div className="relative flex flex-col place-items-center z-50 before:absolute before:h-[300px] before:w-6/12 before:rounded-full before:bg-gradient-radial before:from-slate-400/60 before:to-slate-500/50 before:blur-3xl"> */}
-            <div className="relative flex flex-col place-items-center z-50">
+            <div className="relative flex flex-col place-items-center">
               <Image
                 className="relative drop-shadow-[0_0_0.3rem_#ffffff70] invert"
                 src="/Kots-poiretone-nobg.svg"
