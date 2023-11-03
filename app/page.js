@@ -16,7 +16,7 @@ export default function Home() {
                 alt="Knock on the sky logo"
                 width={480}
                 height={87}
-                priority
+          
               />
               <h1 id="tagline"  className={`${cinzel.className} text-white`}>
                 & listen to the sound
