@@ -4,7 +4,7 @@ import { cinzel } from './fonts'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col place-items-center p-14 justify-between">
+    <main className="flex min-h-screen flex-col place-items-center p-14 justify-center">
       <div className="hero h-5/6 pb-4">
         <div className="hero-content text-center">
           <div className="max-w-2xl">
@@ -28,7 +28,7 @@ export default function Home() {
         </div>
       </div>
       <Link id="text-neon" href="https://link.dice.fm/z91c0c3e1667" className="text-lime-300 text-2xl tracking-widest"> 🎟️ Click Here for Sweat Equity Tickets 🎟️ </Link>
-            <p className={`${cinzel.className} pt-12 text-sm text-lime-300 tracking-widest opacity-90`}>We're a collective of multidisciplinary artists and producers from around the world. We create experiences and offer the services below: </p>
+            <p className={`${cinzel.className} py-12 text-sm text-lime-300 tracking-widest opacity-90`}>We're a collective of multidisciplinary artists and producers from around the world. We create experiences and offer the services below: </p>
 
       {/* <div className="grid grid-cols-3 gap-4 grid-flow-col md:grid-flow-row "> */}
       <div className="relative max-w-fit text-white flex flex-col gap-4 justify-center md:flex md:flex-row">
